@@ -1,6 +1,6 @@
 const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
-const sendMail = require('../connection/sendMail')
+// const sendMail = require('../connection/sendMail')
 const UserModel = require('../models/users')
 
 // sem ans user shoud be calculated in frontend and sent to backend
@@ -33,7 +33,7 @@ const signup = (req, res) => {
             newUser.save()
               .then(savedUser => {
                 // console.log(savedUser)
-                sendMail(savedUser.email, otp)
+                // sendMail(savedUser.email, otp)
                 res.status(200).json({ message: "Signed-Up Successfully, Please Verify your Email to continue" })
               })
               .catch(err => {

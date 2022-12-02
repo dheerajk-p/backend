@@ -1,6 +1,6 @@
 # Feedback System or FeedSys
 
-This project is a part of the [Feedback System or FeedSys](https://github.com/KrutikGadhiya/SGP-Feedback-System), the backend of this project. This project is made in NodeJS, mongoDB and using Express Framework.
+This project is a part of the [Feedback System or FeedSys](https://github.com/dheerajk-p/frontend), the backend of this project. This project is made in NodeJS, mongoDB and using Express Framework.
 
 ## Available Scripts
 
@@ -16,12 +16,4 @@ Then after you can run the project with the following command:
 
 ## Links to other repositories
 
-React Frontend [Click here](https://github.com/KrutikGadhiya/SGP-Feedback-System)
-
-Flutter Application [Click here](https://github.com/AmanDesai10/Feedback-System-App)
-
-## Project Members
-
-[Aman Desai](https://github.com/AmanDesai10)
-
-[Me (Krutik Gadhiya)](https://github.com/KrutikGadhiya)
+React Frontend [Click here](https://github.com/dheerajk-p/frontend)

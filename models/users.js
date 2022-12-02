@@ -12,7 +12,7 @@ const UserSchema = mongoose.Schema({
   },
   isVerified: {
     type: Boolean,
-    default: false
+    default: true
   },
   institute: {
     type: String
